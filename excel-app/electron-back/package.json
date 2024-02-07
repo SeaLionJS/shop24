@@ -1,0 +1,20 @@
+{
+  "name": "excel-trade",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "npx electron-packager ./ --icon=logo.ico --platform=win32 --arch=x64 --app-version=0.8.0 --app-copyright=Bohdan_Onyshchenko --overwrite --asar --prune=true --out=release_dist --ignore=release_dist",
+    "pack-dev": "npx electron-packager ./ --icon=logo.ico --platform=win32 --arch=x64 --app-version=0.8.0 --app-copyright=Bohdan_Onyshchenko --overwrite --out=release_dist --ignore=release_dist --ignore=files"
+  },
+  "keywords": [],
+  "author": "Bohdan",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^28.1.0"
+  },
+  "dependencies": {
+    "exceljs": "^4.4.0"
+  }
+}

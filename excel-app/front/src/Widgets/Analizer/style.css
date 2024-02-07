@@ -1,0 +1,13 @@
+.goods-index-errors>div{
+    padding: 3px 10px;
+    margin: 10px 5px;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, .1);
+    border-radius: 5px;
+}
+
+.goods-index-errors span{
+    margin: 0 10px;
+    min-width: 120px;
+    display: inline-block;
+}

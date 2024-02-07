@@ -1,0 +1,35 @@
+.animated-logo{
+    position: relative;
+}
+
+@keyframes spin-logo { 
+    from { 
+        transform: rotate(0deg); 
+    } to { 
+        transform: rotate(360deg); 
+    }
+}
+
+.animated-logo .rotated-logo{
+    position: absolute;
+    left: 0;
+    top:0;
+    width: 300px;
+    animation-name: spin-logo;
+    animation-duration: 3000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.animated-logo{
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.animated-logo .developer-logo{
+    position: absolute;
+    left: 24px;
+    top:24px;
+    width: 260px;
+}

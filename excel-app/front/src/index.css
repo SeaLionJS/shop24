@@ -1,0 +1,180 @@
+header{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    padding: 20px;
+}
+
+header .logo{
+    width: 140px;
+}
+
+header .navigation{
+    display: flex;
+    gap: 30px;
+}
+
+header h3{
+    margin: 10px;
+    text-align: center;
+    font-size: 32px;
+}
+
+.cat-editable-area{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+#root{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.bonus-header{
+    font-size: 32px;
+}
+
+.salelist-info{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.salelist-info>*{
+    max-width: 400px;
+    min-width: 100px;
+}
+
+.salelist-info .left{
+    margin: 10px 0;
+    width: 300px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.salelist-info .left>*{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.salelist-info .left .autosave{
+    font-size: 24px;
+    padding-left: 30px;
+    text-align: justify;
+}
+
+.salelist-info .left button{
+    width: 250px;
+}
+
+
+
+.salelist-info .center{
+    padding: 10px 0;
+    margin: 10px 0;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 350px;
+    font-size: 28px;
+    text-align: left;
+}
+
+.salelist-info .center h4{
+    text-align: center;
+    margin: 10px 60px;
+    border-bottom: 1px solid black;
+}
+
+.salelist-info .center>*{
+    padding: 0 20px;
+    margin: 25px 40px;
+}
+
+.salelist-info .center .first{
+    margin-top: 10px;
+}
+
+.salelist-info .center span{
+    margin-left:10px;
+    display: inline-block;
+    width: 135px;
+}
+
+.salelist-info .center span:first-child{
+    width: 20px;
+    margin-left: 0;
+}
+
+.salelist-info .center .res{
+    font-weight: 700;
+    font-style: italic;
+}
+
+.salelist-info .right>*{
+    margin: 10px 0;
+    border: 1px solid black;
+}
+
+.input-container{
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.about-manager .control{
+margin: 20px;
+}
+
+.about-manager .amount-expenses{
+    font-size: 24px;
+    margin: 20px;
+}
+
+.about-manager .control button{
+    font-size: 24px;
+}
+
+.man-info{
+    overflow-y: auto;
+    max-height: 90%;
+}
+
+.man-info .total{
+    font-size: 24px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.man-info .days{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.man-info .days>*{
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: gainsboro;
+
+}
+
+.man-info .header{
+    font-weight: bold;
+}
+
+.man-info .total .header{
+    border-bottom: 1px solid black;
+    margin-top: 5px;
+}
+
+.man-info .btn-right{
+    text-align: right;
+}
